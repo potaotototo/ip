@@ -1,15 +1,71 @@
 # Noosy
 
-This is a project for CS2103T. It's named noosy.Noosy because I wanted my chatbot to sound nosy... Given below are instructions on how to use it.
+**Your Smart Personal Task Manager**
 
-## Setting up in Intellij
+![Java](https://img.shields.io/badge/Java-17+-red) ![Build](https://img.shields.io/badge/build-Gradle-green) ![Platform](https://img.shields.io/badge/platform-Mac%20%7C%20Windows%20%7C%20Linux-lightgrey)
 
-Prerequisites: JDK 17, update Intellij to the most recent version.
+Noosy is a **Java-based personal assistant** for efficient task management. It combines a **command-line interface (CLI)** for speed with a **graphical user interface (GUI)** for intuitive interaction — and stores all your tasks **persistently**, so nothing is lost between sessions.
 
-1. Open Intellij (if you are not in the welcome screen, click `File` > `Close Project` to close the existing project first)
-1. Open the project into Intellij as follows:
-   1. Click `Open`.
-   1. Select the project directory, and click `OK`.
-   1. If there are any further prompts, accept the defaults.
-1. Configure the project to use **JDK 17** (not other versions) as explained in [here](https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk).<br>
-   In the same dialog, set the **Project language level** field to the `SDK default` option.
+---
+
+## ✨ Features
+
+* **Hybrid CLI + GUI** – Use keyboard commands or click through a sleek interface.
+* **Persistent Storage** – All tasks are saved automatically.
+* **Efficient Task Commands** – Manage tasks quickly and precisely.
+* **Search & Filter** – Find tasks by keyword or date.
+
+---
+
+## 💻 Available Commands
+
+| Command      | Description                                   |
+| ------------ | --------------------------------------------- |
+| `add`        | Add a new task (e.g., to-do, deadline, event) |
+| `delete`     | Remove a task from the list                   |
+| `list`       | View all saved tasks                          |
+| `mark`       | Mark a task as completed                      |
+| `unmark`     | Mark a task as not completed                  |
+| `find`       | Search for tasks by keyword                   |
+| `datesearch` | Find tasks scheduled for a specific date      |
+| `exit`       | Exit Noosy and save all tasks                 |
+
+---
+
+## 🚀 Installation & Usage
+
+1. **Download the JAR**
+   Go to the [Releases](../../releases) page and download the latest `noosy.jar`.
+
+2. **Run Noosy**
+
+   ```bash
+   java -jar noosy.jar
+   ```
+
+3. **Start Managing Tasks!**
+
+   * Use the GUI buttons, or
+   * Type commands in the input bar (e.g., `add Read book /by 2025-08-20`)
+
+---
+
+## 🖼️ Screenshots
+
+*(Add images or GIFs of the CLI and GUI here)*
+
+---
+
+## 🛠️ Tech Stack
+
+* **Java 17+**
+* **JavaFX** for GUI
+* **Gradle** for build automation
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
